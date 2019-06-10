@@ -13,14 +13,12 @@ angular.module('TableauSampleApp.config', [])
 */
 
 .constant('config', {
-    demo: true,
-    signInUrl: "https://public.tableau.com",
-    serverUrl: "https://public.tableau.com",
+    demo: false,
+    signInUrl: "https://tableau-dev.fortress.com/signin",
+    serverUrl: "https://tableau-dev.fortress.com",
     sitePath: "",
     oauth: false,
-    viz1Url: 'https://public.tableau.com/views/10_0InternationalTourism/InternationalTourism?:tooltip=n&:toolbar=top&:app=yes',
-    viz2Url: 'https://public.tableau.com/views/10_0ClinicAnalytics/ClinicAnalytics?:tooltip=n&:toolbar=top',
-    viz3Url: 'https://public.tableau.com/views/10_0SuperstoreSales/Overview?:tooltip=n&:toolbar=top'
+    viz1Url: 'https://tableau-dev.fortress.com/t/Corporate/views/Regional/Obesity?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no'
 })
 
 /* Config Example 
