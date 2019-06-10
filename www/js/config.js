@@ -14,7 +14,7 @@ angular.module('TableauSampleApp.config', [])
 
 .constant('config', {
     demo: false,
-    signInUrl: "https://tableau-dev.fortress.com/signin",
+    signInUrl: "https://tableau-dev.fortress.com/#/signin",
     serverUrl: "https://tableau-dev.fortress.com",
     sitePath: "",
     oauth: false,
